@@ -1,7 +1,4 @@
-// const channels = {
-//     music: ["EqKiF3Av3jk", "h8HO7DR7GW8", "gC_IhX_mvHU"],
-// };
-// channels.js
+// Channels
 const channels = {
   ScienceAndTech: [
     { id: "nfAqTSjMBJk", duration: 1957 },
