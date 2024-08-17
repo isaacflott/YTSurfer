@@ -58,7 +58,7 @@ html {
     background-repeat: repeat;
 }
 
-.mute-button {
+.button {
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -72,26 +72,10 @@ html {
     transition: background-color 0.3s;
     height: 50px;
 }
-.mute-button:hover {
+.button:hover {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-.channel-button {
-    position: absolute;
-    bottom: 10px;
-    padding: 10px 20px;
-    background-color: rgba(255, 255, 255, 0.2);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
-    height: 50px;
-}
-.channel-button:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-}
 #channel-prev {
     right: 142px;
 }
@@ -118,5 +102,11 @@ html {
 .bottom-left {
     bottom: 1rem;
     left: 1rem;
+    font-size: 1rem;
+}
+
+.top-right {
+    top: 1rem;
+    right: 1rem;
     font-size: 1rem;
 }

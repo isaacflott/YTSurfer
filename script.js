@@ -8,6 +8,7 @@ const overlay = document.getElementById("overlay");
 const muteToggle = document.getElementById("mute-toggle");
 const channelPrev = document.getElementById("channel-prev");
 const channelNext = document.getElementById("channel-next");
+const infoButton = document.getElementById("info-button");
 const channelNames = Object.keys(channels);
 
 function updateTxt(videoId) {
@@ -57,6 +58,8 @@ function onPlayerReady(event) {
 
   channelPrev.addEventListener("click", () => switchChannel(-1));
   channelNext.addEventListener("click", () => switchChannel(1));
+
+  infoButton.addEventListener("click", showInfo);
 
   document.addEventListener("keydown", function (event) {
     if (event.key == "ArrowLeft") {
@@ -136,6 +139,7 @@ overlay.addEventListener("mousemove", function (e) {
   muteToggle.style.display = "block";
   channelPrev.style.display = "block";
   channelNext.style.display = "block";
+  infoButton.style.display = "block";
 
   const rect = overlay.getBoundingClientRect();
   const xThreshold = rect.width * 0.2;
@@ -154,6 +158,7 @@ overlay.addEventListener("mousemove", function (e) {
       muteToggle.style.display = "none";
       channelPrev.style.display = "none";
       channelNext.style.display = "none";
+      infoButton.style.display = "none";
     }, 3000);
   }
 });
@@ -189,6 +194,10 @@ function switchChannel(direction) {
   setTimeout(() => {
     document.getElementById("static-image").style.display = "none";
   }, 1000);
+}
+
+function showInfo() {
+  window.open("https://github.com/card100/YTSurfer", "_blank").focus();
 }
 
 var tag = document.createElement("script");
