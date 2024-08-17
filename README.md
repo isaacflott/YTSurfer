@@ -1,6 +1,4 @@
-# 🏄 YTSurfer
-Channel Surf YouTube
-
-Live Site: [ytsurfer.gruett.io](http://ytsurfer.gruett.io)
+# [🏄 YTSurfer](http://ytsurfer.gruett.io)
+**Channel Surf YouTube**
 
 Inspired by [ytch.xyz](https://ytch.xyz/)
