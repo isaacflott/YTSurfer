@@ -166,10 +166,14 @@ overlay.addEventListener("mousemove", function (e) {
 function toggleMute() {
   if (player.isMuted()) {
     player.unMute();
-    muteToggle.textContent = "🔇";
+    muteToggle.textContent = "🔊";
+    muteToggle.style.animation = "nothing";
+    muteToggle.style.backgroundColor = "rgba(255, 255, 255, 0.2)";
   } else {
     player.mute();
-    muteToggle.textContent = "🔊";
+    muteToggle.textContent = "🔇";
+    muteToggle.style.backgroundColor = "rgba(255, 0, 0, 0.9)";
+    muteToggle.style.animation = "muteFlash 1.5s infinte";
   }
 }
 

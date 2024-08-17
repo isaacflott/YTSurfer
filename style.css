@@ -83,6 +83,22 @@ html {
     right: 76px;
 }
 
+@keyframes muteFlash {
+    0% {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+    50% {
+        background-color: rgba(255, 0, 0, 0.9);
+    }
+    100% {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+}
+#mute-toggle {
+    background-color: rgba(255, 0, 0, 0.9);
+    animation: muteFlash 1.5s infinite;
+}
+
 .overlay-text {
     position: fixed;
     color: white;
