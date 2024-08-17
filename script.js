@@ -57,6 +57,18 @@ function onPlayerReady(event) {
 
   channelPrev.addEventListener("click", () => switchChannel(-1));
   channelNext.addEventListener("click", () => switchChannel(1));
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key == "ArrowLeft") {
+      switchChannel(-1);
+    } else if (event.key == "ArrowUp") {
+      switchChannel(1);
+    } else if (event.key == "ArrowRight") {
+      switchChannel(1);
+    } else if (event.key == "ArrowDown") {
+      switchChannel(-1);
+    }
+  });
 }
 
 function onPlayerStateChange(event) {
