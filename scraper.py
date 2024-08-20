@@ -1,7 +1,7 @@
 # Run this to create new channels
 #
 # Install:
-    # pip install --upgrade yt-dlp tqdm
+    # pip3 install --upgrade yt-dlp tqdm
 #
 # Run:
     # python3 scraper.py
