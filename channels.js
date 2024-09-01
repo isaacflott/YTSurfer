@@ -895,7 +895,6 @@ const channels = {
     { id: "coreen9Qag8", duration: 1364 },
     { id: "yRxPdKl-Tjk", duration: 840 },
     { id: "v-uTJ1Diz5I", duration: 243 },
-    { id: "r30ReMM6lbQ", duration: 473 },
     { id: "izBtU6VYkG8", duration: 1772 },
     { id: "DfBRe2zpVak", duration: 195 },
     { id: "w3H935ajqI8", duration: 370 },
