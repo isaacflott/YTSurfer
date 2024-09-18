@@ -1,4 +1,4 @@
-# [🏄 YTSurfer](https://ytsurfer.gruett.io)
+# [🏄 YTSurfer](https://flottmeyer.tv)
 **Channel Surf YouTube**
 
 Use arrow keys or controls in bottom right to browse between channels.
